@@ -1,0 +1,67 @@
+
+html , body{
+    height: 100%;
+    color: #666;
+    margin: 0;
+}
+
+.pimg1{
+    background-image: url(./asset/img1.jpeg);
+    height: 100%;
+    width: 100%;
+
+}
+.pimg2{
+    background-image: url(./asset/img2.jpeg);
+    min-height: 400px;
+    width: 100%;
+
+}
+.pimg3{
+    background-image: url(./asset/img3.jpeg);
+    min-height: 400px;
+    width: 100%;
+
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   color: black;
+   font-size: 20px;
+   /* background-color: green; */
+   /* letter-spacing: 2px; */
+   word-spacing: 2px;
+   text-transform: uppercase;
+}
+.textbg{
+    background-color: #313534;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 12px;
+}
+.one{
+    padding: 50px 80px;
+    text-align: center;
+    color: #666;
+}
+.two{
+    padding: 50px 80px;
+    text-align: center;
+    color: #666;
+    background-color: black;
+}
+.three{
+    padding: 50px 80px;
+    text-align: center;
+    color: #666;
+    background-color: black;
+}
